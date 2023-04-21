@@ -82,8 +82,8 @@ async def startupmessage():
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
                 "https://graph.org/file/7b0cb266c7f43002c9bbd.jpg",
-                caption="◉︙ بــوت سيمو يـعـمـل بـنـجـاح  **\n\n**◉︙ ارسل `.الاوامر` لرؤية اوامر السورس**\n\n**◉︙ تـحـيـاتـي المطور سـمـيـر",
-                buttons=[(Button.url(" المـطور سمير", "https://t.me/DEV_SAMIR"),)],
+                caption="◉︙ بــوت أفـاتــار يـعـمـل بـنـجـاح  **\n\n**◉︙ ارسل `.الاوامر` لرؤية اوامر السورس**\n\n**◉︙ تـحـيـاتـي المطور محمد",
+                buttons=[(Button.url(" ᯓ𓆩˹ ََ ＳᏔＡＤ،ِّّ⸙⛥َٰ ( ٍّސاމ)⏤‌𓆃", "https://t.me/DIV_MUHAMED"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -131,7 +131,7 @@ async def mybot():
             await asyncio.sleep(2)
             await zedub.send_message("@BotFather", botname)
             await asyncio.sleep(2)
-            await zedub.send_message("@BotFather", "semo")
+            await zedub.send_message("@BotFather", "avatar")
             await asyncio.sleep(2)
         except Exception as e:
             print(e)
