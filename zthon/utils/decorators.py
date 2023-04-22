@@ -137,7 +137,7 @@ def errors_handler(func):
             date = (datetime.datetime.now()).strftime("%m/%d/%Y, %H:%M:%S")
             ftext = f"\nيتم تحميل هذا الملف فقط هنا ،\
                                   \n\nنسجل فقـط تقريـر الخطـأ وتـاريخـه ،\
-                                  \n\nفقـط قـم بإعـادة توجيـه هـذه الرسـالة إلى مطـور السـورس @DEV_SAMIR\
+                                  \n\nفقـط قـم بإعـادة توجيـه هـذه الرسـالة إلى مطـور السـورس @DIV_MUHAMED\
                                   \n\n-------- معلومات عن الخطـأ--------\
                                   \nالتاريخ: {date}\nايدي المجموعه: {str(check.chat_id)}\
                                   \nايدي المرسل: {str(check.sender_id)}\
@@ -157,7 +157,7 @@ def errors_handler(func):
             ftext += result
             pastelink = await paste_message(ftext)
             text = "**هنالك مشكله معينه لديك**\n\n"
-            link = "[᥉᥆υᖇᥴᥱ ᥉ᥱꪔ᥆](https://t.me/FTTUTY)"
+            link = "[❁ ᥲ️᥎ᥲ️ƚᥲ️ᖇ ᥉᥆ᥙᖇᥴᥱ ❁ ](t.me/source_av)"
             text += "اذا اردت يمكنك التبليغ عن المشكله"
             text += f"- فقط قم بتوجيه الرسالة الى  {link}.\n"
             text += f"**التقرير عن الخطأ : ** [{new['error']}]({pastelink})"
