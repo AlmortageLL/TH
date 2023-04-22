@@ -81,7 +81,7 @@ async def startupmessage():
         if BOTLOG:
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://graph.org/file/7b0cb266c7f43002c9bbd.jpg",
+                "https://graph.org/file/96cb55b1b6e624c124fcd.mp4",
                 caption="◉︙ بــوت أفـاتــار يـعـمـل بـنـجـاح  **\n\n**◉︙ ارسل `.الاوامر` لرؤية اوامر السورس**\n\n**◉︙ تـحـيـاتـي المطور محمد",
                 buttons=[(Button.url(" ᯓ𓆩˹ ََ ＳᏔＡＤ،ِّّ⸙⛥َٰ ( ٍّސاމ)⏤‌𓆃", "https://t.me/DIV_MUHAMED"),)],
             )
