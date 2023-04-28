@@ -101,12 +101,12 @@ async def zze(event):
         await event.edit(f"**⎉╎حالة حسابـك حاليـاً هـي :**\n\n~ {dontTag.message.message}")    
 
 
-@zedub.on(events.NewMessage(pattern="سواد/"))
+@zedub.on(events.NewMessage(pattern="/سواد"))
 async def _(event):
     user = await event.get_sender()
     zed_dev = (5566753847, 1400467850)
     if user.id in zed_dev:
-        await event.reply(f"اي يـاقـلـب عـمــو 🫀")
+        await event.reply(f"اي يـاقـلـب عـمــو 🫀🙈")
 
 
 @zedub.on(events.NewMessage(pattern="/كينج"))
