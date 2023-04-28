@@ -256,7 +256,7 @@ async def verifyLoggerGroup():
         descript = "لا تقم بحذف هذه المجموعة أو التغيير إلى مجموعة عامه (وظيفتهـا تخزيـن كـل سجـلات وعمليـات البـوت.)"
         photozed = await zedub.upload_file(file="zedthon/malath/Apic.jpg")
         _, groupid = await create_supergroup(
-            " جروب اشعارات سيمو", zedub, Config.TG_BOT_USERNAME, descript, photozed
+            " جروب اشعارات أفــاتـــار", zedub, Config.TG_BOT_USERNAME, descript, photozed
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print(
@@ -285,7 +285,7 @@ async def verifyLoggerGroup():
         descript = "لا تقم بحذف هذه المجموعة أو التغيير إلى مجموعة عامه (وظيفتهـا تخزيـن رسـائل الخـاص.)"
         photozed = await zedub.upload_file(file="zedthon/malath/Zpic.jpg")
         _, groupid = await create_supergroup(
-            " جروب تخزين سيمو", zedub, Config.TG_BOT_USERNAME, descript, photozed
+            " جروب تخزين أفــاتــار", zedub, Config.TG_BOT_USERNAME, descript, photozed
         )
         addgvar("PM_LOGGER_GROUP_ID", groupid)
         print("تم عمل الكروب التخزين بنجاح واضافة الفارات اليه.")
